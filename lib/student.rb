@@ -2,6 +2,7 @@ class Student < User
 
 def new
   @knowledge = []
+  @knowledge
 end
 
 def learn(subject)
