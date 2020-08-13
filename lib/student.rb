@@ -13,4 +13,8 @@ end
 def learn(subject)
   @knowledge << subject
 end
+
+def knowledge
+  @knowledge
+end
 end
